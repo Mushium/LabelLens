@@ -1,0 +1,11 @@
+.p-card {
+  border: 1px solid white !important;
+}
+
+.p-fileupload-basic {
+  width: 100%;
+}
+
+.p-fileupload-basic .p-button {
+  width: 100%;
+}
