@@ -68,7 +68,7 @@ instance/
 
 # =========================
 
-storage.json
+backend/storage_key.json
 service-account.json
 *.pem
 *.key
