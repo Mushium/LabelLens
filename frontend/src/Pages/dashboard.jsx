@@ -26,7 +26,7 @@ function Dashboard() {
   async function GetModels() {
     const authkey = localStorage.getItem("Token");
 
-    const response = await fetch("http://127.0.0.1:5000/models", {
+    const response = await fetch("https://labellens.onrender.com/models", {
       method: "GET",
       headers: { authkey },
     });
@@ -42,7 +42,7 @@ function Dashboard() {
   async function PostModels(name) {
     const authkey = localStorage.getItem("Token");
     if (!name) return;
-    const response = await fetch("http://127.0.0.1:5000/models", {
+    const response = await fetch("https://labellens.onrender.com/models", {
       method: "POST",
       headers: { authkey, name },
     });
@@ -58,7 +58,7 @@ function Dashboard() {
   async function DeleteModels(name) {
     const authkey = localStorage.getItem("Token");
     if (!name) return;
-    const response = await fetch("http://127.0.0.1:5000/models", {
+    const response = await fetch("https://labellens.onrender.com/models", {
       method: "DELETE",
       headers: { authkey, name },
     });
@@ -73,7 +73,7 @@ function Dashboard() {
 
   async function Auth() {
     const authkey = localStorage.getItem("Token");
-    const response = await fetch("http://127.0.0.1:5000/auth", {
+    const response = await fetch("https://labellens.onrender.com/auth", {
       headers: { authkey },
     });
     const data = await response.json();
@@ -93,7 +93,7 @@ function Dashboard() {
   async function SignOut() {
     const authkey = localStorage.getItem("Token");
 
-    const response = await fetch("http://127.0.0.1:5000/key", {
+    const response = await fetch("https://labellens.onrender.com/key", {
       headers: { authkey },
     });
     const data = await response.json();

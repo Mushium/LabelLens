@@ -29,7 +29,7 @@ function Model() {
   async function GetClasses() {
     const authkey = localStorage.getItem("Token");
 
-    const response = await fetch("http://127.0.0.1:5000/classes", {
+    const response = await fetch("https://labellens.onrender.com/classes", {
       method: "GET",
       headers: { authkey, model },
     });
@@ -45,7 +45,7 @@ function Model() {
   async function PostClasses(className) {
     const authkey = localStorage.getItem("Token");
     if (!className) return;
-    const response = await fetch("http://127.0.0.1:5000/classes", {
+    const response = await fetch("https://labellens.onrender.com/classes", {
       method: "POST",
       headers: { authkey, model, className },
     });
@@ -61,7 +61,7 @@ function Model() {
   async function DeleteClasses(className) {
     const authkey = localStorage.getItem("Token");
     if (!className) return;
-    const response = await fetch("http://127.0.0.1:5000/classes", {
+    const response = await fetch("https://labellens.onrender.com/classes", {
       method: "DELETE",
       headers: { authkey, model, className },
     });
@@ -78,7 +78,7 @@ function Model() {
     try {
       const authkey = localStorage.getItem("Token");
       const contentType = file.type;
-      const response = await fetch("http://127.0.0.1:5000/signed-upload-url", {
+      const response = await fetch("https://labellens.onrender.com/signed-upload-url", {
         method: "POST",
         headers: { authkey, "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -105,7 +105,7 @@ function Model() {
 
   async function Auth() {
     const authkey = localStorage.getItem("Token");
-    const response = await fetch("http://127.0.0.1:5000/auth", {
+    const response = await fetch("https://labellens.onrender.com/auth", {
       headers: { authkey },
     });
     const data = await response.json();
@@ -120,7 +120,7 @@ function Model() {
     const authkey = localStorage.getItem("Token");
 
     setVisible(true);
-    const response = await fetch("http://127.0.0.1:5000/generate", {
+    const response = await fetch("https://labellens.onrender.com/generate", {
       method: "POST",
       headers: { authkey, model },
     });
@@ -145,7 +145,7 @@ function Model() {
     const data = new FormData();
     data.append("file", file);
 
-    const response = await fetch("http://127.0.0.1:5000/predict", {
+    const response = await fetch("https://labellens.onrender.com/predict", {
       method: "POST",
       headers: { authkey, model },
       body: data,
@@ -159,7 +159,7 @@ function Model() {
   async function SignOut() {
     const authkey = localStorage.getItem("Token");
 
-    const response = await fetch("http://127.0.0.1:5000/key", {
+    const response = await fetch("https://labellens.onrender.com/key", {
       headers: { authkey },
     });
     const data = await response.json();

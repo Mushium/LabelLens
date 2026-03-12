@@ -24,7 +24,7 @@ function Account() {
   const [password, setPassword] = useState("");
 
   async function SignIn() {
-    const response = await fetch("http://127.0.0.1:5000/user", {
+    const response = await fetch("https://labellens.onrender.com/user", {
       method: "POST",
       headers: { username, password },
     });
@@ -39,7 +39,7 @@ function Account() {
   }
 
   async function LogIn() {
-    const response = await fetch("http://127.0.0.1:5000/user", {
+    const response = await fetch("https://labellens.onrender.com/user", {
       method: "GET",
       headers: { username, password },
     });
@@ -55,7 +55,7 @@ function Account() {
 
   async function Auth() {
     const authkey = localStorage.getItem("Token");
-    const response = await fetch("http://127.0.0.1:5000/auth", {
+    const response = await fetch("https://labellens.onrender.com/auth", {
       headers: { authkey },
     });
     const data = await response.json();
