@@ -8,16 +8,13 @@ import json
 import sqlite3
 from colorama import Back,init
 from google.cloud import storage
-from google.oauth2 import service_account
 import uuid
 import mimetypes
 from datetime import timedelta
 import shutil
 from tempfile import NamedTemporaryFile,TemporaryDirectory
 
-credentials_info = json.loads(os.environ["GOOGLE_CREDENTIALS_JSON"]) # os.environ acts like a Singleton
-credentials = service_account.Credentials.from_service_account_info(credentials_info)
-storage_client = storage.Client(credentials=credentials)
+storage_client = storage.Client.from_service_account_json("storage_key.json")
 bucket = storage_client.get_bucket("test-bucket-qew")
 init(autoreset=True)
 app = Flask(__name__)
