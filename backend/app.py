@@ -300,7 +300,7 @@ def generate():
 
 
 
-        model = Easy_Model(model_dir,10,32,model_name,model_dir)
+        model = Easy_Model(model_dir,1,32,model_name,model_dir)
         blob = bucket.blob(f"{user_id}/{model_name}/{model_name}.keras")
         keras_path = os.path.join(model_dir, f"{model_name}.keras")
         blob.upload_from_filename(keras_path)
