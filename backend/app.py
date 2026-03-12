@@ -23,7 +23,14 @@ CORS(app,supports_credentials=True) # Becuase React is not the same domain as fl
 
 conn = sqlite3.connect('keyData.db')
 cursor = conn.cursor()
-cursor.execute("DELETE FROM keyData")
+cursor.execute("""
+    SELECT name FROM sqlite_master 
+    WHERE type='table' AND name='keyData'
+""")
+
+if cursor.fetchone():
+    cursor.execute("DELETE FROM keyData")
+
 conn.commit()
 conn.close()
 
