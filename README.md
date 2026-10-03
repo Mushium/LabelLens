@@ -43,23 +43,19 @@ For example, create a **Flowers** model, add **Daisy**, **Rose**, and **Sunflowe
 ```text
 LabelLens/
 ├── backend/
-│   ├── app.py                 # Flask routes and cloud-storage integration
-│   ├── easy_model.py          # CNN training and image prediction
-│   ├── easy_user.py           # SQLite account and session helpers
-│   └── requirements.txt       # Pinned Python dependencies
+│   ├── app.py              
+│   ├── easy_model.py          
+│   ├── easy_user.py         
+│   └── requirements.txt       
 ├── docs/
-│   └── readme-banner.svg      # Repository cover artwork
+│   └── readme-banner.svg      
 ├── frontend/
-│   ├── public/                # Branding assets and redirect configuration
+│   ├── public/            
 │   ├── src/
-│   │   ├── Pages/             # Home, account, dashboard, model, settings
-│   │   ├── components/        # Shared page layout
-│   │   └── main.jsx           # App entry point and routes
+│   │   ├── Pages/      
+│   │   ├── components/      
+│   │   └── main.jsx         
 │   ├── package.json
 │   └── vite.config.js
 └── README.md
 ```
-
-## Feedback
-
-Found a bug or have an idea? [Open an issue](https://github.com/Mushium/LabelLens/issues) with the steps to reproduce it or a description of the proposed improvement.
