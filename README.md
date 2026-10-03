@@ -6,10 +6,11 @@
 </p>
 
 <p align="center">
+  <a href="https://lablelslens.netlify.app">Live Demo</a> ·
+  <a href="https://labellens.onrender.com">Backend API</a> ·
   <a href="#what-you-can-do">Features</a> ·
   <a href="#how-it-works">How it works</a> ·
-  <a href="#run-locally">Run locally</a> ·
-  <a href="#roadmap">Roadmap</a>
+  <a href="#run-locally">Run locally</a>
 </p>
 
 ---
