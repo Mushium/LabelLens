@@ -195,17 +195,6 @@ The current API mixes headers, JSON, and multipart form data for inputs. See `ba
 - **Configuration:** the API URL, bucket name, and credential path are hardcoded. The project has no bundled sample dataset or offline demo mode.
 - **Interface:** settings are a placeholder; predictions use browser alerts, and several actions reload the page.
 
-## Roadmap
-
-- [ ] Add a short walkthrough and screenshots of the dashboard, class uploads, and prediction result.
-- [ ] Unify the app name, favicon, navigation, and responsive layouts.
-- [ ] Centralize configuration and provide a documented `.env.example`.
-- [ ] Hash passwords and improve session and input handling.
-- [ ] Save class labels with each model and share image preprocessing between training and prediction.
-- [ ] Add background training jobs, progress feedback, and evaluation results.
-- [ ] Show prediction results and confidence in an accessible result panel.
-- [ ] Add a small redistributable example dataset and automated checks.
-
 ## Feedback
 
 Found a bug or have an idea? [Open an issue](https://github.com/Mushium/LabelLens/issues) with the steps to reproduce it or a description of the proposed improvement.
