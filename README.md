@@ -1,8 +1,7 @@
 ![LabelLens — Your images. Your classes. Your classifier.](docs/readme-banner.svg)
 
 <p align="center">
-  <strong>A browser-based workspace for building custom image classifiers.</strong><br>
-  Organize labeled images, train a neural network, and try predictions in one workflow.
+A browser-based workspace for building custom image classifiers. Organize labeled images, train a neural network, and try predictions in one workflow.
 </p>
 
 <p align="center">
@@ -10,8 +9,6 @@
   <a href="https://labellens.onrender.com">Backend API</a> ·
   <a href="#how-it-works">How it works</a>
 </p>
-
----
 
 ## Why LabelLens?
 
@@ -55,3 +52,8 @@ LabelLens/
 │   └── vite.config.js
 └── README.md
 ```
+
+
+License and Copyrights
+
+Copyrights (c) 2026 Abdulla Almehairbi. This package is licensed under the MIT license.
