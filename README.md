@@ -9,6 +9,8 @@ A browser-based workspace for building custom image classifiers. Organize labele
   <a href="https://labellens.onrender.com">Backend API</a>
 </p>
 
+(https://img.shields.io/badge/license-MIT-green)
+
 ## Why LabelLens?
 
 Experimenting with image classification involves more than training a model: you need to organize examples, assign labels, and test the result. LabelLens brings those steps into a React interface backed by Flask, TensorFlow, and Google Cloud Storage.
