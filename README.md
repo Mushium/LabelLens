@@ -17,7 +17,7 @@
 
 Experimenting with image classification involves more than training a model: you need to organize examples, assign labels, and test the result. LabelLens brings those steps into a React interface backed by Flask, TensorFlow, and Google Cloud Storage.
 
-For example, create a **Flowers** model, add **Daisy**, **Rose**, and **Sunflower** classes, upload your examples, and train a classifier. Then upload a new flower image to see its predicted class.
+For example, create a Flowers model, add Daisy, Rose, and Sunflower** classes, upload your examples, and train a classifier. Then upload a new flower image to see its predicted class.
 
 ## How it works
 
@@ -29,14 +29,10 @@ For example, create a **Flowers** model, add **Daisy**, **Rose**, and **Sunflowe
 
 ### Built with
 
-| Layer | Technology |
-| --- | --- |
-| Interface | React 18, React Router, PrimeReact, PrimeFlex |
-| Frontend tooling | Vite 7; Tailwind CSS plugin configured |
-| API | Python, Flask, Flask-CORS |
-| Machine learning | TensorFlow 2.20, Keras, NumPy, Pillow |
-| Image and model storage | Google Cloud Storage |
-| Account and session storage | SQLite |
+1. Frontend: React
+2. Backend: Flask
+3. Machine Learning Library: TensorFlow and Keras
+4. Storage: Google Cloud Storage and SQLite
 
 ## Project structure
 
