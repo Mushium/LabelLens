@@ -6,8 +6,7 @@ A browser-based workspace for building custom image classifiers. Organize labele
 
 <p align="center">
   <a href="https://lablelslens.netlify.app">Live Demo</a> ·
-  <a href="https://labellens.onrender.com">Backend API</a> ·
-  <a href="#how-it-works">How it works</a>
+  <a href="https://labellens.onrender.com">Backend API</a>
 </p>
 
 ## Why LabelLens?
