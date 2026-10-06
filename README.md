@@ -17,7 +17,7 @@
 
 Experimenting with image classification involves more than training a model: you need to organize examples, assign labels, and test the result. LabelLens brings those steps into a React interface backed by Flask, TensorFlow, and Google Cloud Storage.
 
-For example, create a Flowers model, add Daisy, Rose, and Sunflower** classes, upload your examples, and train a classifier. Then upload a new flower image to see its predicted class.
+For example, create a Flowers model, add Daisy, Rose, and Sunflower classes, upload your examples, and train a classifier. Then upload a new flower image to see its predicted class.
 
 ## How it works
 
