@@ -9,7 +9,7 @@ A browser-based workspace for building custom image classifiers. Organize labele
   <a href="https://labellens.onrender.com">Backend API</a>
 </p>
 
-(https://img.shields.io/badge/license-MIT-green)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
 ## Why LabelLens?
 
