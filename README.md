@@ -5,7 +5,7 @@ A browser-based workspace for building custom image classifiers. Organize labele
 </p>
 
 <p align="center">
-  <a href="https://lablelslens.netlify.app">Live Demo</a> ·
+  <a href="https://lablelslens.netlify.app">Live Demo</a>
   <a href="https://labellens.onrender.com">Backend API</a>
 </p>
 
@@ -17,13 +17,13 @@ For example, create a Flowers model, add Daisy, Rose, and Sunflower classes, upl
 
 ## How it works
 
-1. **Create a model** from the dashboard.
-2. **Add classes** representing the labels you want to recognize.
-3. **Upload examples** for each class. Use JPG or PNG images for the clearest path through the current upload and counting logic.
-4. **Select Generate** to train the model.
-5. **Select Predict** and upload an image to classify it.
+1. Create a model from the dashboard.
+2. Add classes representing the labels you want to recognize.
+3. Upload examples for each class. Use JPG or PNG images for best results.
+4. Select Generate to train the model.
+5. Select Predict and upload an image to classify it.
 
-### Built with
+## Built with
 
 1. Frontend: React
 2. Backend: Flask
