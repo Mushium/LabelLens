@@ -30,29 +30,6 @@ For example, create a Flowers model, add Daisy, Rose, and Sunflower classes, upl
 3. Machine Learning Library: TensorFlow and Keras
 4. Storage: Google Cloud Storage and SQLite
 
-## Project structure
-
-```text
-LabelLens/
-├── backend/
-│   ├── app.py              
-│   ├── easy_model.py          
-│   ├── easy_user.py         
-│   └── requirements.txt       
-├── docs/
-│   └── readme-banner.svg      
-├── frontend/
-│   ├── public/            
-│   ├── src/
-│   │   ├── Pages/      
-│   │   ├── components/      
-│   │   └── main.jsx         
-│   ├── package.json
-│   └── vite.config.js
-└── README.md
-```
-
-
-License and Copyrights
+## License and Copyrights
 
 Copyrights (c) 2026 Abdulla Almehairbi. This package is licensed under the MIT license.
